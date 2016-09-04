@@ -6,12 +6,12 @@ Algorithm
 
 
 ##To Do
-Insert Sort
-Select Sort
-Back Tracking
-A*
-Dynamic Programming
-DFS
-BFS
-Binary Search
-Quick Sort
+1. Insert Sort
+2. Select Sort
+3. Back Tracking
+4. A*
+5. Dynamic Programming
+6. DFS
+7. BFS
+8. Binary Search
+9. Quick Sort
