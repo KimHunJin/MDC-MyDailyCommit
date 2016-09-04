@@ -3,15 +3,14 @@ Algorithm
 ##Done
 1. Dijkstras
 2. Bubble Sort
-
+3. Insert Sort
 
 ##To Do
-1. Insert Sort
-2. Select Sort
-3. Back Tracking
-4. A*
-5. Dynamic Programming
-6. DFS
-7. BFS
-8. Binary Search
-9. Quick Sort
+1. Select Sort
+2. Back Tracking
+3. A*
+4. Dynamic Programming
+5. DFS
+6. BFS
+7. Binary Search
+8. Quick Sort
