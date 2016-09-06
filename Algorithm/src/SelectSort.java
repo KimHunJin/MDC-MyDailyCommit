@@ -39,8 +39,8 @@ public class SelectSort {
         print();
     }
 
-    // 출력문
-    void print() {
+    // 출력문문
+   void print() {
         for (int i : arr) {
             System.out.print(i + " ");
         }
