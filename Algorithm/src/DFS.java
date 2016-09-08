@@ -19,18 +19,18 @@ public class DFS {
         graph[0][0] = 1;
         graph[range-1][range-1] = 1;
 
-        makeGraph();
+        makingGraph();
 
         print();
     }
 
     /**
-     * this method is making graph
+     * this method is making mage
      * just right and up down because if has left then so many root
      * start is 0,0
      * end is range-1, range-1
      */
-    void makeGraph() {
+    void makingMage() {
         int x =0, y=0;
         int random;
 
@@ -44,6 +44,25 @@ public class DFS {
                 x--;
             }
             graph[x][y] = 1;
+        }
+    }
+
+    /**
+     * this method is making graph
+     * the road is making to higher number for myself
+     * for example
+     * 1 is making 2 3 4 5
+     * but, 3 is making 4 5
+     */
+    void makingGraph() {
+        for(int i=0;i<range;i++) {
+            for(int j=i;j<range;j++) {
+                if(i==j) {
+                    graph[i][j] = 0;
+                } else {
+                    graph[i][j] = (int)(Math.random()*(2*range-i));
+                }
+            }
         }
     }
 
