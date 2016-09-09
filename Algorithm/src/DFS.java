@@ -6,7 +6,7 @@ public class DFS {
     int range = 5;
 
     int[][] graph = new int[range][range];
-    boolean[] visit = new boolean[range]; // if visit them true else then false
+    boolean[][] visit = new boolean[range][range]; // if visit them true else then false
 
     public static void main(String[] args) {
 
@@ -20,13 +20,14 @@ public class DFS {
         graph[range-1][range-1] = 1;
 
         makingGraph();
+//        makingMage();
 
         print();
     }
 
     /**
      * this method is making mage
-     * just right and up down because if has left then so many root
+     * just right up and down because if has left then so many root
      * start is 0,0
      * end is range-1, range-1
      */
@@ -53,6 +54,7 @@ public class DFS {
      * for example
      * 1 is making 2 3 4 5
      * but, 3 is making 4 5
+     * it's making range
      */
     void makingGraph() {
         for(int i=0;i<range;i++) {
@@ -67,11 +69,28 @@ public class DFS {
     }
 
     /**
-     * dfs algorithm
-     *
+     * this method is similar by makingGraph()
+     * but just making 0 and 1
+     * have road or haven't road
      */
-    void dfs () {
-        
+    void makingGraphZeroTwoOne() {
+        for(int i=0;i<range;i++) {
+            for(int j=i;j<range;j++) {
+                if(i==j) {
+                    graph[i][j] = 0;
+                } else {
+                    graph[i][j] = (int)(Math.random()*2);
+                }
+            }
+        }
+    }
+
+    /**
+     * dfs algorithm
+     * find mage for shortest root
+     */
+    void dfs (int start, int end) {
+
     }
 
     /**
@@ -86,5 +105,4 @@ public class DFS {
         }
         System.out.println();
     }
-
 }
