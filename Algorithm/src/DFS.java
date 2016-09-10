@@ -7,6 +7,7 @@ public class DFS {
 
     int[][] graph = new int[range][range];
     boolean[][] visit = new boolean[range][range]; // if visit them true else then false
+    int[] distance = new int[range];
 
     public static void main(String[] args) {
 
