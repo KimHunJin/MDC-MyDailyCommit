@@ -19,9 +19,13 @@ public class DFS {
     void init() {
         graph[0][0] = 1;
         graph[range-1][range-1] = 1;
+        for (int i=0;i<distance.length;i++) {
+            distance[i] = 0;
+        }
 
         makingGraph();
 //        makingMage();
+        System.out.println(dfs(0, 4));
 
         print();
     }
@@ -90,8 +94,23 @@ public class DFS {
      * dfs algorithm
      * find mage for shortest root
      */
-    void dfs (int start, int end) {
-
+    int dfs (int start, int end) {
+        int min = 1000;
+        int minIndex = 0;
+        if(start==end) {
+            return 0;
+        }
+        for(int i=0;i<graph[start].length;i++) {
+            if(graph[start][i]<min && graph[start][i] != 0) {
+                if(distance[i] >= graph[start][i] + distance[i]) {
+                    distance[i] = graph[start][i] + distance[i];
+                }
+                min = graph[start][i];
+                minIndex = i;
+            }
+        }
+        System.out.println("Index : " + minIndex);
+        return min + dfs(minIndex,end);
     }
 
     /**
