@@ -89,13 +89,13 @@
       <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44" vertical-offset="688" max-vertical-offset="2632">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.44" vertical-offset="1164" max-vertical-offset="2884">
+              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding>
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2107#2108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -597,12 +597,12 @@
       <workItem from="1473776005688" duration="1783000" />
       <workItem from="1473820231469" duration="5531000" />
       <workItem from="1473828446445" duration="2326000" />
-      <workItem from="1473862812211" duration="610000" />
+      <workItem from="1473862812211" duration="2616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50219000" />
+    <option name="totallyTimeSpent" value="52225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1936" height="1096" extended-state="0" />
@@ -619,7 +619,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1096,13 +1096,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44" vertical-offset="688" max-vertical-offset="2632">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.44" vertical-offset="1164" max-vertical-offset="2884">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
           <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
           </folding>
         </state>
       </provider>

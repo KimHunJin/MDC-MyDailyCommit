@@ -5,7 +5,7 @@ import java.util.Arrays;
  *
  * 순열을 구하는 프로그램
  *
- * input : 1 2 3 4
+ * input  : 1 2 3 4
  * output : 1 2 3 4
  *          1 2 4 3
  *          1 3 2 4
@@ -30,16 +30,15 @@ public class Permutation {
         number[2] = C;
         number[3] = D;
 
-        perm(allNum,number,0,4,4);
+        perm(allNum,number,0,number.length,number.length);
         Arrays.sort(allNum);
         print(allNum);
 
     }
 
-
     /**
      * 출력문
-     * @param str
+     * @param str  // 출력할 배열
      */
     void print(String[] str) {
         for (String s : str) {
@@ -48,19 +47,18 @@ public class Permutation {
     }
 
     /**
-     *
-     * @param str  // 4개의 통합된 수를 저장할 배열
-     * @param arr  // 4개의 수
-     * @param depth  // 시작할 깊이
-     * @param n  // 반복할 개수
-     * @param k  // k와 같아진다면 배열 str에 추가
+     * 재귀적으로 순열을 구함 (트리 구조)
+     * @param str // 모든 경우의 수를 저장할 배열
+     * @param arr // 수가 저장된 배열 (x,x,x,x)
+     * @param depth // 현재 트리의 깊이
+     * @param n // 배열안에 들어있는 총 개수
+     * @param k // 순열의 자리 수
      */
     void perm(String[] str, int[] arr, int depth, int n, int k) {
 
-        // 깊이가 k와 같아진다는건 한 싸이클을 돌았다는 것
-        if(depth == k ) {
-            addNum(str,arr, count);
-            count++;
+        if(depth == k ) {  // 깊이가 최대 자리 수 까지 왔을 경우
+            addNum(str,arr, count); // 수를 저장
+            count++; // 수를 하나 저장할 때마다 카운트 증가
             return;
         }
 
@@ -72,14 +70,25 @@ public class Permutation {
         }
     }
 
-    // 숫자 교체
+    /**
+     * 문맥 교환 메서드
+     * i번째 인덱스의 값과 j번째 인덱스의 값 교환
+     * @param arr  // 교환할 배열
+     * @param i  // 교환하고자 하는 인덱스
+     * @param j  // 교환하고자 하는 인덱스
+     */
     void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
     }
 
-    // str에 숫자 저장
+    /**
+     * 모든 경우의 수를 또 하나의 배열에 저장하기 위한 메서드
+     * @param str  // 모든 경우의 수를 저장할 배열
+     * @param arr  // n가지 수가 들어있는 배열 (x,x,x,x)
+     * @param count // 모든 경우의 수를 저장할 위치
+     */
     void addNum(String[] str, int[] arr, int count) {
         str[count] = "" + arr[0] + arr[1] + arr[2] + arr[3];
     }
