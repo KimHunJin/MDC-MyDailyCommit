@@ -6,11 +6,14 @@ Algorithm
 3. Insert Sort
 4. Select Sort
 5. Binary Search
+6. Permutation
+
+##Doing
+1. DFS
 
 ##To Do
 1. Back Tracking
 2. A*
 3. Dynamic Programming
-4. DFS
-5. BFS
-6. Quick Sort
+4. BFS
+5. Quick Sort
