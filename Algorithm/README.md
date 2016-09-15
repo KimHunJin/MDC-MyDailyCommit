@@ -7,6 +7,7 @@ Algorithm
 4. Select Sort
 5. Binary Search
 6. Permutation
+7. Quick Sort
 
 ##Doing
 1. DFS
@@ -16,4 +17,3 @@ Algorithm
 2. A*
 3. Dynamic Programming
 4. BFS
-5. Quick Sort
