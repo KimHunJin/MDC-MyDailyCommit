@@ -1,3 +1,3 @@
-start lambda expression
-but... intellij setting is fail
-so tomorrow try this again
+Start Lambda Expression
+
+just I studies through the google search.
