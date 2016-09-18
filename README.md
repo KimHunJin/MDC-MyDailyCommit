@@ -1,3 +1,10 @@
 # MDC-MyDailyCommit
+
 9월1일 일일커밋 시작! (1차 목표 : 한달)
-우선 무엇을 공부할지 생각해보자.... 하면 안할거 같으니 아무거나라도 커밋해야지
+
+이것저것 공부한는 중
+
+
+1. RxJava
+2. Algorithm
+3. Java Lambda Expression
