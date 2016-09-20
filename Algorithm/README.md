@@ -11,6 +11,8 @@ Algorithm
 
 ##Doing
 1. DFS
+2. Linked List
+
 
 ##To Do
 1. Back Tracking
