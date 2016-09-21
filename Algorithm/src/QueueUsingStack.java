@@ -39,6 +39,14 @@ public class QueueUsingStack {
         System.out.println(get());
         System.out.println(get());
         System.out.println(get());
+
+        put(4);
+        put(5);
+
+        System.out.println(get());
+        put(6);
+        System.out.println(get());
+        System.out.println(get());
     }
 
     /**
@@ -75,7 +83,7 @@ public class QueueUsingStack {
      */
     int get() {
         // stack1의 사이즈가 0이 아니라는 것은 스택에 수가 있다는걸 의미
-        if(stack1.size()>0) {
+        if(stack1.size()>0 && stack2.size()==0) {
             change();
         }
         return Integer.parseInt(stack2.pop().toString());
