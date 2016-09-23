@@ -8,3 +8,6 @@
 1. RxJava
 2. Algorithm
 3. Java Lambda Expression
+
+sorry 9/23 is not practice.
+
