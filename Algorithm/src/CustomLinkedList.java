@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /**
  * Created by HunJin on 2016-09-20.
  *
@@ -7,10 +9,10 @@
  */
 public class CustomLinkedList {
 
-    private Node node;
     private CustomList list;
 
     public static void main(String[] args) {
+
         new CustomLinkedList().init();
     }
 
@@ -19,6 +21,7 @@ public class CustomLinkedList {
 
         list.count = 0;
         list.head = null;
+
     }
 }
 
