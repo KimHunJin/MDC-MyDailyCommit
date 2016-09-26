@@ -8,6 +8,8 @@ Algorithm
 5. Binary Search
 6. Permutation
 7. Quick Sort
+8. Fibonacci
+9. Sleep Sort
 
 ##Doing
 1. DFS
