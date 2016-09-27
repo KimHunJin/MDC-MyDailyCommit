@@ -9,5 +9,5 @@
 2. Algorithm
 3. Java Lambda Expression
 
-sorry 9/23 is not practice.
+sorry, 9/23 did not have to practice.
 
