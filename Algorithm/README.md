@@ -10,6 +10,8 @@ Algorithm
 7. Quick Sort
 8. Fibonacci
 9. Sleep Sort
+10. Heap Sort
+
 
 ##Doing
 1. DFS
