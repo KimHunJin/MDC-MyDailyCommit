@@ -3,19 +3,20 @@
  */
 public class RandomArray {
     public static void main(String[] args) {
-        int number = (int)(Math.random() * 10)+1;
-        int[] arr = new int[number]; // random size array
 
-        new RandomArray().makingArr(arr);
+        new RandomArray().makingArr();
     }
 
     /**
      * making random value
-     * @param arr
+     * @param
      */
-    void makingArr(int[] arr) {
+    public int[] makingArr() {
+        int number = (int)(Math.random() * 10)+1;
+        int[] arr = new int[number];
         for(int i=0;i<arr.length;i++) {
             arr[i] = (int)(Math.random()*10)+1; // random value in array
         }
+        return arr;
     }
 }

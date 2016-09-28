@@ -2,6 +2,8 @@
  * Created by HunJin on 2016-09-27.
  *
  * HeapSort
+ * 가장 끝의 노드를 루트로 가져와 값을 비교해가며 제자리를 맞춰가는 정렬방법
+ *
  */
 public class HeapSort {
     public static void main(String[] args) {

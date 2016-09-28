@@ -11,6 +11,8 @@ Algorithm
 8. Fibonacci
 9. Sleep Sort
 10. Heap Sort
+11. Heap
+12. ArraySort
 
 
 ##Doing

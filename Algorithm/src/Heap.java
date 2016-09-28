@@ -1,5 +1,8 @@
 /**
  * Created by HunJin on 2016-09-27.
+ *
+ * this class is making heap.
+ *
  */
 public class Heap {
 
@@ -9,6 +12,10 @@ public class Heap {
         this.arr = arr;
     }
 
+    /**
+     * 루트노드를 만들고 -> 왼쪽부터 큰 수로 만들고 오른쪽으로 반복
+     * @param i
+     */
     public void max_Heapify(int i) {
 
         if (arr == null || arr.length < 1)
@@ -34,20 +41,30 @@ public class Heap {
 
     public void buildMaxHeap() {
 
+        // 만약 arr 값이 없거나 1보다 작음 리턴
         if (arr == null || arr.length < 1)
             return;
 
+        // 배열의 사이즈/2 부터 반복 시작
         for (int i = arr.length / 2; i > 0; i--) {
             max_Heapify(i);
         }
     }
 
+    /**
+     * swap 메서드
+     * @param i
+     * @param j
+     */
     private void swap(int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
     }
 
+    /**
+     * 출력문
+     */
     public void printArr() {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(" " + arr[i]);
