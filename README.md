@@ -10,4 +10,4 @@
 3. Java Lambda Expression
 
 sorry, 9/23 did not have to practice.
-
+sorry, 10/1 did not have to practice.
