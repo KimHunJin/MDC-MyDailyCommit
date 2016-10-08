@@ -16,7 +16,7 @@ public class LCS {
         A = in.readLine();
         B =in.readLine();
 
-        lcs = new int[A.length()+1][B.length()+1];
+        lcs = new int[A.length()][B.length()];
 
         a = new int[A.length()];
 
@@ -35,7 +35,8 @@ public class LCS {
     static void make(int num) {
 
         for(int i=num;i<B.length();i++) {
-            if(A.charAt(i)==B.charAt(num)) {
+            if(A.charAt(num)==B.charAt(i)) {
+                char f = B.charAt(i);
                 for(int j=i;j<lcs[i].length;j++) {
                     a[j]++;
                 }
