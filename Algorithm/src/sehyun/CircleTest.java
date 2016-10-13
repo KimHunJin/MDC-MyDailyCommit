@@ -13,7 +13,7 @@ public class CircleTest {
         System.out.println(p2 + " created");
 
         // 생성된 Piont 인스턴스의 개수를 출력하는 문장을 여기에 추가하시오.
-        System.out.println("N of points = " + Point.count);
+        System.out.println("N of points = " + Point.getCount());
 
         Circle c1 = new Circle();
         System.out.println(c1 + " created");
@@ -23,8 +23,8 @@ public class CircleTest {
 
         // 생성된 Piont 인스턴스의 개수를 출력하는 문장을 여기에 추가하시오.
         // 생성된 Circle 인스턴스의 개수를 출력하는 문장을 여기에 추가하시오.
-        System.out.println("N of points = " + Point.count);
-        System.out.println("N of circles = " + Circle.count);
+        System.out.println("N of points = " + Point.getCount());
+        System.out.println("N of circles = " + Circle.getCount());
 
         System.out.println("area of c2 = " + c2.getArea());
 
