@@ -12,5 +12,5 @@
 5. node.js
 6. unity
 
-sorry, 9/23 did not have to practice.
-sorry, 10/1 did not have to practice.
+09/23   X
+10/01   X
