@@ -3,10 +3,10 @@ package algorithm;
 /**
  * Created by HunJin on 2016-11-18.
  */
-public class translateS {
+public class TranslateS {
 
     public static void main(String[] args) {
-        System.out.println(new translateS().solution2("BBBBBBBBBBBB"));
+        System.out.println(new TranslateS().solution2("BBBBBBBBBBBB"));
     }
 
     public String solution(String S) {

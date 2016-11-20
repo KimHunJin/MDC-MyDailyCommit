@@ -25,92 +25,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecommendationFriends.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simple_project/ChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1558">
+              <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendationFriends.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/RecommendationFriends.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sehyun/Comparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sehyun/RectangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sehyun/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elements.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Elements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/nn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translateS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/translateS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
+      <file leaf-file-name="MultiChatServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simple_project/MultiChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientsList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simple_project/ClientsList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sehyun/Tv.java" />
-        <option value="$PROJECT_DIR$/src/sehyun/ShowTv.java" />
         <option value="$PROJECT_DIR$/src/sehyun/CarTest.java" />
         <option value="$PROJECT_DIR$/src/sehyun/Car.java" />
         <option value="$PROJECT_DIR$/src/algorithm/PlusScyle.java" />
@@ -170,11 +118,9 @@
         <option value="$PROJECT_DIR$/src/simple_project/ClientsList.java" />
         <option value="$PROJECT_DIR$/src/sehyun/LottoY.java" />
         <option value="$PROJECT_DIR$/src/sehyun/Lotto.java" />
-        <option value="$PROJECT_DIR$/src/simple_project/ChatClient.java" />
         <option value="$PROJECT_DIR$/src/simple_project/Connection.java" />
         <option value="$PROJECT_DIR$/src/simple_project/MultiChatServer.java" />
         <option value="$PROJECT_DIR$/src/notes/BlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/RecommendationFriends.java" />
         <option value="$PROJECT_DIR$/src/sehyun/Comparable.java" />
         <option value="$PROJECT_DIR$/src/sehyun/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/sehyun/Rectangle.java" />
@@ -183,6 +129,10 @@
         <option value="$PROJECT_DIR$/src/algorithm/nn.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort.java" />
         <option value="$PROJECT_DIR$/src/algorithm/translateS.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/NumberOfSqrt.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/TranslateS.java" />
+        <option value="$PROJECT_DIR$/src/simple_project/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/RecommendationFriends.java" />
       </list>
     </option>
   </component>
@@ -232,9 +182,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,75 +265,15 @@
       <recent name="D:\user\MDC-MyDailyCommit\Algorithm\src\notes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.translateS">
-    <configuration default="false" name="RecommendationFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RecommendationFriends">
+    <configuration default="false" name="TranslateS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.RecommendationFriends" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sehyun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sehyun.RectangleTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="nn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.nn" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="translateS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.translateS" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.TranslateS" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -404,6 +294,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="algorithm.Sort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MultiChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="simple_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="simple_project.MultiChatServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="simple_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="simple_project.ChatClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RecommendationFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithm.RecommendationFriends" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -833,19 +783,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RecommendationFriends" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RectangleTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.nn" />
-      <item index="3" class="java.lang.String" itemvalue="Application.translateS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Sort" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TranslateS" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MultiChatServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ChatClient" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RecommendationFriends" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.translateS" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.nn" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RectangleTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RecommendationFriends" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RecommendationFriends" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ChatClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MultiChatServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TranslateS" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -940,25 +890,27 @@
       <workItem from="1479186902503" duration="9019000" />
       <workItem from="1479197319870" duration="3247000" />
       <workItem from="1479443768712" duration="9250000" />
+      <workItem from="1479533690233" duration="1575000" />
+      <workItem from="1479539443395" duration="7002000" />
+      <workItem from="1479631671022" duration="429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230079000" />
+    <option name="totallyTimeSpent" value="239085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -977,6 +929,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1211,13 +1164,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/SameNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Remainder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1414,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3933">
           <caret line="208" column="61" selection-start-line="208" selection-start-column="61" selection-end-line="208" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,34 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="1250" column="23" selection-start-line="1250" selection-start-column="23" selection-end-line="1250" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_project/MultiChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_project/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_project/ClientsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_project/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1483,16 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/RecommendationFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -1504,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1512,7 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1520,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,35 +1435,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/nn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="1121">
           <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/translateS.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/NumberOfSqrt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="228">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/TranslateS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_project/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/BorderLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_project/ClientsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_project/MultiChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_project/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/RecommendationFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
