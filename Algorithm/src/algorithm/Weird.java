@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class Weird {
     public static void main(String[] args) throws IOException {
         Weird w = new Weird();
-//        w.solve();
+//        w.sum();
 //        w.testCase();
         w.numberTest();
 
@@ -40,7 +40,7 @@ public class Weird {
                 for (int i = 2; i <= number / 2; i++) {
                     if (number % i == 0) {
                         sum += i;
-                        }
+                    }
                 }
                 if (sum > number) {
                     int result = sum - number;

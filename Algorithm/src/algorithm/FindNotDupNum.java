@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * Created by HunJin on 2016-09-12.
  *
  * problem
- * input duplicated num
+ * loops duplicated num
  *    example aabbbcccdeeeff
  *
  * output
