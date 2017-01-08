@@ -45,6 +45,7 @@ public class Connection extends Thread {
         synchronized (ClientsList.list) {
             for(Connection c : ClientsList.list) {
                 c.send(message);
+                System.out.println(c+"");
             }
         }
     }

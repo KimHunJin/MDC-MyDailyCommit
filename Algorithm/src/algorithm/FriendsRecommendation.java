@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * 텍스트 파일은 내 이름과 친구 이름으로 구성됩니다.
  * 예 : 둘리 희동이
  *
- * 36라인 FILE_PATH만 수정하면 됩니다.
+ * 38라인 FILE_PATH만 수정하면 됩니다.
  *
  * loops : 내 이름
  *

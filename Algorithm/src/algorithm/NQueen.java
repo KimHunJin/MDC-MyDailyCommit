@@ -17,11 +17,11 @@ public class NQueen {
     int count;
 
     void input() {
-//        int loops = iRead();
-//        for (int i = 0; i < loops; i++) {
+        int loops = iRead();
+        for (int i = 0; i < loops; i++) {
             solve();
             System.out.println(count);
-//        }
+        }
     }
 
     void solve() {
