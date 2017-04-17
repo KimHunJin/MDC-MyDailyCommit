@@ -68,7 +68,6 @@ public class QuickSort {
                 j--;
             }
         }
-        System.out.println(j);
         return i;  // 기준이 되는 수로 이 수를 기준으로 왼쪽은 이하, 오른쪽은 이상으로 나뉨.
     }
 

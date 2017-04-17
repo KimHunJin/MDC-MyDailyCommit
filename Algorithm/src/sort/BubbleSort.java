@@ -32,6 +32,7 @@ public class BubbleSort {
                 }
             }
         }
+        
         print();
     }
 

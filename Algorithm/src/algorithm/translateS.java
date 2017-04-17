@@ -6,7 +6,7 @@ package algorithm;
 public class TranslateS {
 
     public static void main(String[] args) {
-        System.out.println(new TranslateS().solution2("BBBBBBBBBBBB"));
+        System.out.println(new TranslateS().solution2("AAAAAAAAAA"));
     }
 
     public String solution(String S) {

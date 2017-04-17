@@ -1,6 +1,8 @@
 package algorithm;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Created by HunJin on 2016-09-24.
@@ -19,9 +21,9 @@ public class FalinuxForm {
 
         int right = 0, bottom = -1, top = 1; // 시작지점의 오른쪽 값은 0, 바텀값은 -1 (없음), 탑 값음 1
 
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        int size = Integer.parseInt(br.readLine());
-        int size = 3;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int size = Integer.parseInt(br.readLine());
+//        int size = 3;
 
         int[][] falinux = new int[size][size];
 
