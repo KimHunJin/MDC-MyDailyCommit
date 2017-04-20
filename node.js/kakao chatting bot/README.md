@@ -24,9 +24,7 @@ module.exports = function(app, fs) {
 			res.end(data);
 		});
 	});
-`"
 
-"`	
 	app.post('/message', function(req, res) {
 		var result = { };
 		
@@ -51,7 +49,7 @@ module.exports = function(app, fs) {
 		res.send(resultJson);
 	});
 };
-`"
+"`
 
 1. cd ..
 
@@ -59,6 +57,5 @@ module.exports = function(app, fs) {
 
 "`
 var fs = require('fs'); // insert the internal module
-
 var kakao = require('./routes/kakao')(app, fs); // insert before exception
-`"
+"`
