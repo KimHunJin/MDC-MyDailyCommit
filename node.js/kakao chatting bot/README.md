@@ -16,7 +16,7 @@
 
 1. vi kakao.js
 
-"`
+“`
 module.exports = function(app, fs) {
 	app.get('/keyboard', function(req, res) {
 		fs.readFile(__dirname + "/../data/"+"keyboard.json",'utf8', function(err, data) {
@@ -49,13 +49,13 @@ module.exports = function(app, fs) {
 		res.send(resultJson);
 	});
 };
-"`
+“`
 
 1. cd ..
 
 1. vi app.js
 
-"`
+“`
 var fs = require('fs'); // insert the internal module
 var kakao = require('./routes/kakao')(app, fs); // insert before exception
-"`
+“`
