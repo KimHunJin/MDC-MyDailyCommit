@@ -15,6 +15,7 @@
 1. cd ../routes
 
 1. vi kakao.js
+
 "`
 module.exports = function(app, fs) {
 	app.get('/keyboard', function(req, res) {
@@ -49,9 +50,11 @@ module.exports = function(app, fs) {
 	});
 };
 `"
+
 1. cd ..
 
 1. vi app.js
+
 "`
 var fs = require('fs'); // insert the internal module
 var kakao = require('./routes/kakao')(app, fs); // insert before exception
