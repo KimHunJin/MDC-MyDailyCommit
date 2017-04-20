@@ -1,20 +1,21 @@
 ﻿1. npm install express -g express-generator@4
 
-2. express kakao && npm install
+1. express kakao && npm install
 
-3. mkdir data
+1. mkdir data
 
-4. cd data
+1. cd data
 
-5. vi keyboard.json
+1. vi keyboard.json
 {
 	"type" : "buttons",
 	"buttons" : ["도움말", "시작하기", "만든이"]
 }
 
-6. cd ../routes
+1. cd ../routes
 
-7. vi kakao.js
+1. vi kakao.js
+"`
 module.exports = function(app, fs) {
 	app.get('/keyboard', function(req, res) {
 		fs.readFile(__dirname + "/../data/"+"keyboard.json",'utf8', function(err, data) {
@@ -47,9 +48,11 @@ module.exports = function(app, fs) {
 		res.send(resultJson);
 	});
 };
+`"
+1. cd ..
 
-8. cd ..
-
-9. vi app.js
+1. vi app.js
+"`
 var fs = require('fs'); // insert the internal module
 var kakao = require('./routes/kakao')(app, fs); // insert before exception
+`"
