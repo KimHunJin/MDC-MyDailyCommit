@@ -59,3 +59,65 @@ module.exports = function(app, fs) {
 var fs = require('fs'); // insert the internal module
 var kakao = require('./routes/kakao')(app, fs); // insert before exception
 “`
+
+connected mysql
+
+1. npm install mysql
+
+1. mkdir config
+
+1. cd config
+
+1. vi mySQLConnect.js
+
+"`
+var mysql = require('mysql');
+
+var dbConfig = {
+	host: 'localhost',
+	port: 3306,
+	user: 'root',
+	password: 'mosquito',
+	database: 'kakao'
+};
+
+var connection = mysql.createConnection(dbConfig);
+connection.connect(function(err) {
+	if(err) {
+		console.error('failed connect', err);
+		return;
+	}
+	console.log('success connect');
+
+});
+
+module.exports = connection;
+
+"`
+
+1. vi ../route/kakao.js
+
+
+"`
+
+	var config = require('../config/mySQLConnect');	
+
+		config.query(sql, function (err, result) {
+    		if (err) {
+    	    	console.error("Select Query Error : ", err);
+			} else {
+				// var json = {
+					var id = result[0]['id'];
+					var name = result[0]['name'];
+				
+				console.log(id);
+				console.log(name);
+				
+				messageObject.id = id;
+				messageObject.name = name;
+				// };
+				
+			}
+		});
+
+"`
