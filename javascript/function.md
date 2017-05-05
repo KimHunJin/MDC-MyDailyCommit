@@ -3,6 +3,7 @@
 
 
 ><h3><b>Function?</b></h3>
+>
 >- 임의 횟수에 걸쳐 호출되거나 실행될 수 있는 자바스크립트 코드 블록  
 >- built-in function : 내장함수 (eval(), parseInt(), ...)
 >- custom function : 사용자 정의 함수
@@ -11,6 +12,7 @@
 ---------
 
 > **return?** 
+>
 >- 함수는 항상 리턴 값이 있다.
 >- return을 선언해주지 않은 함수는 undefined를 반환한다.
 
@@ -20,6 +22,7 @@
 ----
 
 > **중첩함수**
+>
 > - function 안에 function이 있는 함수
 > - 함수의 최상위 레벨에서만 정의 가능
 > - if문, while문 안에서 사용 불가
