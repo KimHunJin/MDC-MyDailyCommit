@@ -25,6 +25,7 @@ public class BubbleSort {
         int tmp; // 임시 저장 변수
         for(int i=0;i<randomArray.length;i++) {
             for(int j=i;j<randomArray.length;j++) {  // 이미 확정된 값을 다시 비교하지 않기 위해 시작 위치를 i로 함
+                System.out.println(randomArray[i] + " 비교 : " + randomArray[j]);
                 if(randomArray[i]>randomArray[j]) {  // 앞에서 부터 하나씩 맞춰나감 (작은 수 부터)
                     tmp = randomArray[i];
                     randomArray[i] = randomArray[j];

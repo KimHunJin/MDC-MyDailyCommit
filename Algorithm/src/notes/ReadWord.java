@@ -11,6 +11,18 @@ import java.io.InputStreamReader;
  */
 public class ReadWord {
 
+    public static void main(String[] args) {
+        ReadWord r = new ReadWord();
+        for(int i=0;i<4;i++) {
+            try {
+                int a = r.iRead();
+                System.out.println(a);
+            } catch (IOException ie) {
+                ie.printStackTrace();
+            }
+        }
+    }
+
     public int iRead() throws IOException {
         return Integer.parseInt(readWord());
     }

@@ -4,7 +4,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 
 var client = mysql.createConnection({
-	host: '223.222.25.16',
+	host: '117.123.102.30',
 	port: '3306',
 	user: 'mos',
 	password: 'mosquito',

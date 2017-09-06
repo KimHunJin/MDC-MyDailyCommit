@@ -14,7 +14,8 @@ public class RandomArray {
      * @param
      */
     public int[] makingArr() {
-        int number = (int)(Math.random() * 10)+1;
+        int number = (int)(Math.random() * 4)+1;
+//        int number = 4;
         int[] arr = new int[number];
         for(int i=0;i<arr.length;i++) {
             arr[i] = (int)(Math.random()*10)+1; // random value in array
