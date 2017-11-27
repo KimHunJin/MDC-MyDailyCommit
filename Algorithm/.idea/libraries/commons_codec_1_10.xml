@@ -1,21 +1,10 @@
 <component name="libraryTable">
   <library name="commons-codec-1.10">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/commons-codec-1.10.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/commons-collections4-4.1.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/commons-logging-1.2.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/curvesapi-1.04.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/junit-4.12.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/log4j-1.2.17.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-examples-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-excelant-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-ooxml-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-ooxml-schemas-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/poi-scratchpad-3.16.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/CPT_T1-master/CPT_T1-master/library_excelexample/xmlbeans-2.6.0.jar!/" />
-      <root url="jar://D:/SDK/rxtx-2.2pre2-bins/rxtx-2.2pre2-bins/RXTXcomm.jar!/" />
-      <root url="jar://C:/Program Files (x86)/MySQL/Connector.J 5.1/mysql-connector-java-5.1.35-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/jinhyuk/comp102x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/jinhyuk/core-2.3-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/jinhyuk/javase-2.3-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/jinhyuk/tess4j.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

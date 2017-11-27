@@ -69,7 +69,7 @@ public class FriendsColoringBook {
         picture6[0][99] = 1;
         picture6[99][0] = 1;
 
-        int[] s = solution3(100, 100, picture6);
+        int[] s = solution3(5, 9, picture4);
         System.out.println(s[0] + " : " + s[1]);
     }
 

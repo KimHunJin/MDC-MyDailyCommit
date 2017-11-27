@@ -34,7 +34,7 @@ public class Dijkstras {
         graph[2][4] = 8;
 
         // 시작 위치와 끝 위치 지정
-        dijkstra(1,3);
+        dijkstra(0,4);
     }
 
     void dijkstra(int start, int end) {

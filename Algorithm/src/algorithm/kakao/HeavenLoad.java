@@ -10,7 +10,7 @@ public class HeavenLoad {
 
     public static void main(String[] args) {
 //        int[][] map = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
-        int[][] map = {{0,2,0,0,0,2},{0,0,2,0,1,0},{1,0,0,2,2,0}};
+        int[][] map = {{0, 2, 0, 0, 0, 2}, {0, 0, 2, 0, 1, 0}, {1, 0, 0, 2, 2, 0}};
         System.out.println(solution3(6, 3, map));
     }
 
@@ -24,20 +24,36 @@ public class HeavenLoad {
         public int y;
     }
 
+    static int solution4(int m, int n, int[][] cityMap) {
+        int answer = 0;
+
+        int[][] cMap = new int[m][n];
+        for(int i=0;i<n;i++) {
+            if(cityMap[0][i] == 0) {
+                cMap[0][i] = 1;
+            }
+        }
+
+
+        return answer;
+
+    }
+
+
     static int solution3(int m, int n, int[][] cityMap) {
         int answer = 0;
 
-        answer = re(0,0,cityMap,3);
+        answer = re(0, 0, cityMap, 3);
 
         return answer;
     }
 
     static int re2(int m, int n, int[][] cityMap) {
         int[] s = new int[m];
-        for(int i=0;i<cityMap.length;i++) {
-            if(cityMap[i][0] == 1) {
+        for (int i = 0; i < cityMap.length; i++) {
+            if (cityMap[i][0] == 1) {
                 s[i] = 0;
-            } else if(cityMap[i][0] == 2) {
+            } else if (cityMap[i][0] == 2) {
                 s[i] = 1;
             }
         }
@@ -47,22 +63,21 @@ public class HeavenLoad {
     }
 
     static int re(int m, int n, int[][] cityMap, int type) {
-        if(m==cityMap.length-1 && n==cityMap[0].length-1) {
+        if (m == cityMap.length - 1 && n == cityMap[0].length - 1) {
             return 1;
         } else {
-            if(m>cityMap.length-1 || n>cityMap[0].length-1) {
+            if (m > cityMap.length - 1 || n > cityMap[0].length - 1) {
                 return 0;
             } else {
-                if(cityMap[m][n] == 0) {
-                    return re(m+1,n,cityMap, 3) + re(m,n+1,cityMap, 4);
-                }
-                else if(cityMap[m][n] == 1) {
+                if (cityMap[m][n] == 0) {
+                    return re(m + 1, n, cityMap, 3) + re(m, n + 1, cityMap, 4);
+                } else if (cityMap[m][n] == 1) {
                     return 0;
-                }else {
-                    if(type==3) {
-                        return re(m+1,n,cityMap,3);
+                } else {
+                    if (type == 3) {
+                        return re(m + 1, n, cityMap, 3);
                     } else {
-                        return re(m,n+1,cityMap,4);
+                        return re(m, n + 1, cityMap, 4);
                     }
                 }
             }
@@ -86,7 +101,7 @@ public class HeavenLoad {
         while (!s.isEmpty() || cityMap[0][0] != 1) {
 
 
-            if (i > cityMap.length - 1 || j > cityMap[0].length-1) {
+            if (i > cityMap.length - 1 || j > cityMap[0].length - 1) {
                 i = s.peek().x;
                 j = s.peek().y;
                 s.pop();
@@ -118,8 +133,8 @@ public class HeavenLoad {
                 s.pop();
             }
 
-            for(int k =0;k<cityMap.length;k++) {
-                for(int l = 0; l<cityMap[k].length;l++) {
+            for (int k = 0; k < cityMap.length; k++) {
+                for (int l = 0; l < cityMap[k].length; l++) {
                     System.out.print(cityMap[l][k] + " ");
                 }
                 System.out.println();

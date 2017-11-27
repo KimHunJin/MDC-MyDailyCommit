@@ -6,9 +6,9 @@ Algorithm
 3. Insert Sort
 4. Select Sort
 5. Binary Search
-6. algorithm.Permutation
+6. algorithm.forbidden.Permutation
 7. Quick Sort
-8. algorithm.Fibonacci
+8. algorithm.forbidden.Fibonacci
 9. Sleep Sort
 10. datastructure.Heap Sort
 11. datastructure.Heap

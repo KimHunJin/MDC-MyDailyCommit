@@ -3,13 +3,14 @@ package notes;
 /**
  * Created by HunJin on 2017-08-09.
  */
-public class InheritanceTest extends InheritanceTest2{
+public class InheritanceTest extends InheritanceTest2 implements Interface {
     int i;
 
     final int re = 0;
+
     public InheritanceTest() {
         super();
-        this.i=1;
+        this.i = 1;
         System.out.println(1);
     }
 
@@ -17,17 +18,15 @@ public class InheritanceTest extends InheritanceTest2{
         System.out.println("main");
 
         InheritanceTest inheritanceTest = new InheritanceTest();
-        System.out.println(inheritanceTest.i);
+        System.out.println("상속 : " + inheritanceTest.i);
 
-        final int ggg;
-        ggg=0;
-        System.out.println(ggg);
     }
 
     @Override
-    protected void test() {
+    public void test() {
         super.test();
     }
+
 
     @Override
     protected void test(int i) {
