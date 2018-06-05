@@ -16,12 +16,12 @@ public class PrimeNumber {
         int start = startNumber();
         int last = lastNumber();
 
-        print(start, last);
+        primeNumberCheck(start, last);
 
 
     }
 
-    void print(int start, int last) {
+    void primeNumberCheck(int start, int last) {
 
         for (int i = start; i <= last; i++) {
             if(i == 1) {

@@ -1,12 +1,15 @@
-package algorithm.woowahan;
+package algorithm.woowahan3;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ProblemB {
-
+public class B {
     public static void main(String[] args) {
+        new B().solve();
+    }
+
+    private void solve() {
         try (Scanner s = new Scanner(System.in)) {
             int n = s.nextInt();
 
