@@ -45,3 +45,6 @@ captures/
 
 # wav
 *.wav
+
+# jar
+*.jar
