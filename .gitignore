@@ -7,6 +7,7 @@
 
 # Java class files
 *.class
+Key.java
 
 # Generated files
 bin/
@@ -38,3 +39,9 @@ captures/
 
 # Keystore files
 *.jks
+
+# mp3
+*.mp3
+
+# wav
+*.wav
